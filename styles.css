@@ -10,9 +10,10 @@
 }
 
 #flex-item {
-    background: peachpuff;
-    border: 4px solid brown;
-    height: 100px;
     flex: 1;
     flex-grow: 1;
+}
+
+.dark {
+    background: black;
 }

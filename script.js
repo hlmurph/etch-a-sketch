@@ -11,5 +11,8 @@ for (let i = 0; i < rows; i++) {
             let div = document.createElement('div');
             div.setAttribute('id', 'flex-item');
             row.appendChild(div);
+            div.addEventListener('mouseover', () => {
+                div.classList.add('dark');
+            });
         };
 }
